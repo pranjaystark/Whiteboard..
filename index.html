@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.css">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="wstyle.css">
+</head>
+
+<body>
+    <div class="allcontainer">
+        <div class="input_container">
+            
+            <div class="element_container">
+                <div class="mousepointer">
+                    <i class="fas fa-mouse-pointer"></i>
+                    <img src="https://miro.medium.com/max/280/0*oa0XcvM99Y5clDsj.png" height="20" width="20" alt="">
+                </div>
+                <div class="pen">
+                    <i class="fas fa-pen"></i>
+                </div>
+                <div class="rubber">
+                    <i class="fas fa-eraser"></i>
+                </div>
+                <div class="highliter">
+                    <i class="fas fa-highlighter"></i>
+                </div>
+                <div class="sticker">
+                    <i class="fas fa-sticky-note"></i>
+                </div>
+            </div>
+        <div class="adjustment-container">
+            <select class="font-size" onchange="myFunction()">
+                <option value="12">12</option>
+                <option value="16" selected>16</option>
+                <option value="20">20</option>
+                <option value="24">24</option>
+            </select>
+            <select  class="font-family" onchange="fontFunction()">
+                <option value="monospace">monospace</option>
+                <option value="sans-serif" selected>sans-serif</option>
+                <option value="Georgia">Georgia</option>
+                <option value="fantasy">fantasy</option>
+            </select>
+        </div>
+            <div class="stickercontainer"></div>
+
+            <div class="color_container">
+                <div class="main color"></div>
+                <div class="red color"></div>
+                <div class="yellow color"></div>
+                <div class="orange color"></div>
+                <div class="pink color"></div>
+                <div class="green color"></div>
+                <div class="blue color"></div>
+                <div class="purple color"></div>
+                
+            </div>
+            <div class="clearandsave">
+                <button class="clear">clear</button>
+                <button class="save">save</button>
+            </div>
+        </div>
+    </div>
+    <canvas class="main_container"></canvas>
+    
+    </div>
+    <script src="drawing.js"></script>
+
+
+</body>
+
+</html>

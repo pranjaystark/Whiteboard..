@@ -1,0 +1,305 @@
+*{
+ box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+.allcontainer{
+  position: relative;
+}
+.input_container{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    top: 1rem;
+    left: 1rem;
+    z-index: 100;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);  
+}
+.adjustment-container{
+    display: flex;
+    height: 4rem;
+    width: 13rem;
+    background-color: grey;
+border: 2px solid black;
+margin-top: 1rem;
+margin-left: 1rem;
+
+}
+.font-size{
+    height: 2rem;
+    width: 4rem;
+    margin-left: 1rem;
+    border: 2px solid black;
+    margin-top: 1rem;
+}
+.font-family{
+    height: 2rem;
+    width: 6rem;
+    margin-left: 1rem;
+    border: 2px solid black;
+    margin-top:1rem;
+}
+.menu_container{
+    height: 6rem;
+    width: 6rem;
+}
+.element_container{
+height: 4rem;
+width: 30rem;
+margin-top: 1rem;
+margin-left: 3rem;
+background-color: grey;
+border: 2px solid;
+display: flex;
+gap: 2rem;
+justify-content: center;
+align-items: center;
+}
+.mousepointer{
+    width: 4rem;
+    background-color: ghostwhite;
+    height: 3rem;
+    border: 3px solid black;
+}
+.mousepointer:hover {
+    background-color: #2c2b2b;
+}
+.mousepointer:active {
+    background-color: #2c2b2b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.fa{
+    margin-left: 1.2rem;
+    margin-top: 0.5rem;
+    width: 3rem;
+    font-size: xx-large;
+}
+.pen{
+    width: 4rem;
+    background-color: ghostwhite;;
+    height: 3rem;
+    border: 2px solid;
+    border: 3px solid black;
+}
+.pen:hover {
+    background-color: #2c2b2b;
+}
+.pen:active {
+    background-color: #2c2b2b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.fas{
+    margin-left: 1.2rem;
+    margin-top: 0.5rem;
+    width: 3rem;
+    font-size: xx-large;
+}
+.rubber{
+    width: 4rem;
+    background-color: ghostwhite;;
+    height: 3rem;
+    border: 2px solid;
+    border: 3px solid black;
+}
+.rubber:hover {
+    background-color: #2c2b2b;
+}
+.rubber:active {
+    background-color: #2c2b2b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.highliter{
+    width: 4rem;
+    background-color: ghostwhite;;
+    height: 3rem;
+    border: 2px solid;
+    border: 3px solid black;
+}
+.highliter:hover {
+    background-color: #2c2b2b;
+}
+.highliter:active {
+    background-color: #2c2b2b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.sticker{
+    width: 4rem;
+    background-color: ghostwhite;;
+    height: 3rem;
+    border: 2px solid;
+    border: 3px solid black;
+}
+.sticker:hover {
+    background-color: #2c2b2b;
+}
+.sticker:active {
+    background-color: #2c2b2b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.color_container{
+    margin-top: 1rem;
+    background-color:grey;
+    border: 2px solid;
+    height: 4rem;
+    width: 25rem;
+    display: flex;
+    gap: 1rem;
+}
+.color{
+    border: 1px;
+    height: 2rem;
+    
+}
+.main{
+    margin-left: 1rem;
+    width: 2rem;
+    border: 1px;
+    border-radius: 10%;
+    margin-top: 1rem; 
+    border: 2px solid black;  
+}
+.stickercontainer{
+    height: 6rem;
+    width: 6rem;    
+}
+.red{
+    background-color: red;
+    width: 2rem;
+    border: 1px;
+    border-radius: 10%;
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+.yellow{
+    background-color: yellow;
+    width: 2rem;
+    border: 1px;
+    border-radius: 10%;
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+.orange{
+    background-color: orange;
+    width: 2rem;
+    border: 1px;
+    border-radius: 10%;
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+.green{
+    background-color: green;
+    width: 2rem;
+    border: 1px;
+    border-radius: 10%;
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+.blue{
+    background-color:blue;
+    width: 2rem;
+    border: 1px;
+    border-radius: 10%;
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+.purple{
+    background-color: purple;
+    width: 2rem;
+    border: 1px;
+    border-radius: 10%;
+    margin-top: 1rem; 
+    border: 2px solid black;
+}
+.pink{
+    background-color: pink;
+    width: 2rem;
+    border: 1px;
+    border-radius: 10%;
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+.clearandsave{
+    border: 2px solid;
+    margin-top: 1rem;
+    background-color: grey;
+    height: 4rem;
+    width: 8rem;
+    margin-left: 2rem;
+    justify-content: center;
+    align-items: center;
+   
+}
+.clear{
+     height: 2rem;
+     margin-top: 1rem;
+     margin-left: 1rem;    
+     border: 2px solid;   
+}
+.clear:hover {
+    background-color: #2c2b2b;
+}
+.clear:active {
+    background-color: #2c2b2b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.save{
+    height: 2rem;
+    border: 2px solid;
+}
+.save:hover {
+    background-color: #2c2b2b;
+}
+.save:active {
+    background-color: #2c2b2b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.main_container{
+    background-color:white;
+    position: relative;
+    z-index: 1;
+}
+.menubar{
+    height: 10rem;
+    width: 8rem;
+    background-color: chartreuse;
+}
+.drawingpen{
+    height: 2rem;
+    width: 2rem;
+    background-color: tomato;
+}
+.img{
+    height: 1rem;
+    width: 1rem;
+}
+.newstickers{
+    margin-top: 1rem;
+    height: 5rem;
+    width: 5rem;
+}
+.addingsticker{
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+    z-index: 12;
+    border: 1px solid;
+    text-align: center;  
+    font-weight: bold;
+    background-image:linear-gradient(to bottom, rgba(214, 24, 106, 0.5),red,rgb(174, 232, 59), rgba(0,0,255,0.5),rgb(43, 167, 43)); 
+    transition: 0.2s;
+}
